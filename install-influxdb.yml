@@ -24,7 +24,7 @@
       pause: seconds=3
 
     - name: Create sample database
-      command: /usr/bin/influxdb/influx -execute 'CREATE DATABASE sample_database'
+      command: /usr/bin/influx -execute 'CREATE DATABASE sample_database'
       ignore_errors: yes
 
     - name: Load some test data into sample database
